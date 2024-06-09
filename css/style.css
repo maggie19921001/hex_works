@@ -232,7 +232,8 @@ h2{
 }
 .work1, .work2, .work3{
 	display: flex;
-	justify-content: space-between;
+	justify-content:center;
+	gap: 49px;
 	width: 1920px;
 	line-height: 1.5;
 }
@@ -247,6 +248,7 @@ h2{
 	width: 714px;
 }
 .work2{
+	justify-content: flex-start;
 	position: relative;
 	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true);
 	height: 800px;
@@ -254,6 +256,7 @@ h2{
 .work2-float{
 	position: absolute;
 	z-index: 2;
+	margin-right: 110px;
 }
 .bg-black{
 	width: 50%;
@@ -262,6 +265,8 @@ h2{
 	background-blend-mode: multiply;
 	position: absolute;
 	z-index: 1;
+	display: flex;
+	justify-content: flex-end;
 }
 .work3{
 	background-color: rgba(0, 0, 0, .6);
@@ -283,12 +288,6 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-.work-left-item{
-	margin-left: 16.25%;
-}
-.work-right-item{
-	margin-right: 16.25%;
 }
 .box-content{
 	padding-top: 80px;
@@ -687,12 +686,6 @@ footer{
 	}
 	.work-summary{
 		color: #5B5B5B;
-	}
-	.work-left-item{
-		margin-left: 0%;
-	}
-	.work-right-item{
-		margin-right: 0%;
 	}
 	.work-box{
 		background-color: #FFFFFF;
