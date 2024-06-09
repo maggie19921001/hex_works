@@ -153,9 +153,8 @@ body{
 }
 .intro{
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
-	padding-left: 16.25%;
 }
 .intro-left{
 	height: 296px;
